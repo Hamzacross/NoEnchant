@@ -1,52 +1,70 @@
-NoEnchant is a lightweight plugin that allows server admins to disable specific enchantments across their server. Whether from the enchantment table, anvils, loot chests, or mob drops, disabled enchants will no longer appear.
+📖 NoEnchant
 
-⚙️ Features
+NoEnchant is a lightweight and flexible Minecraft plugin that lets server owners disable specific enchantments completely. Whether it’s Mending, Curse of Vanishing, or any other enchant, you have full control over your server’s enchantment balance.
 
-Disable any enchantment by name.
+✨ Features
 
-Blocks enchantments from:
+🚫 Block any enchantment from being used.
+
+🛡 Works across all sources:
 
 Enchanting table
 
-Anvil combinations
+Anvils
 
 Loot chests
 
 Mob drops
 
-Pickup items with blocked enchants
+Item pickups
 
-Simple config with reload support.
+⚡ Lightweight & efficient – no performance impact.
+
+📝 Easy-to-edit config with reload support.
+
+🔑 Simple commands & permissions for admins.
 
 📥 Installation
 
 Download the latest NoEnchant.jar.
 
-Place it in your server’s /plugins folder.
+Drop it into your server’s /plugins folder.
 
 Restart the server.
 
-Edit the config.yml generated to choose which enchants to disable.
+Open the generated config.yml and list the enchantments you want to disable.
 
-🔧 Configuration (config.yml)
+⚙️ Configuration
+
+config.yml
+
+# List of enchantments you want to disable
 disabled-enchants:
   - MENDING
   - VANISHING_CURSE
   - FROST_WALKER
 
 
-(Use Bukkit/Spigot enchantment names in UPPERCASE.)
+👉 Use the official Spigot/Bukkit enchantment names (always uppercase).
+📜 Full list: Spigot Enchantment API Docs
 
 ⌨️ Commands
-
-/noenchant reload → Reloads the configuration.
-
+Command	Description	Permission
+/noenchant reload	Reloads the configuration	noenchant.reload
 🔐 Permissions
 
-noenchant.reload → Allows reloading the plugin.
+noenchant.reload → Allows using /noenchant reload
 
-📝 Description (for Spigot page)
+📌 Example Use Cases
 
-NoEnchant gives server owners complete control over which enchantments are allowed in their world. Want to disable Mending or remove overpowered curses? With NoEnchant, you can block any enchantment from being obtained through enchanting tables, anvils, loot chests, or mob drops.
+Disable Mending to encourage trading & repairing instead of infinite tools.
 
-This plugin is lightweight, simple to configure, and perfect for keeping your server balanced.
+Remove Curses for a cleaner survival experience.
+
+Block Frost Walker to protect server performance.
+
+Customize enchantment availability for custom gamemodes.
+
+📜 Plugin.yml Description (for Spigot page)
+
+NoEnchant is a simple but powerful plugin that gives you control over enchantments on your server. Disable any enchantment from being applied or obtained through enchanting tables, anvils, loot, or mob drops. Perfect for server owners who want to balance gameplay, remove overpowered enchants, or customize their survival experience.
