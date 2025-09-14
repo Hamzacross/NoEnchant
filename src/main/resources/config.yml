@@ -1,0 +1,44 @@
+enchants:
+  aqua_affinity: true
+  bane_of_arthropods: true
+  binding_curse: true
+  blast_protection: true
+  channeling: true
+  depth_strider: true
+  efficiency: true
+  feather_falling: true
+  fire_aspect: true
+  fire_protection: true
+  flame: true
+  fortune: true
+  frost_walker: true
+  impaling: true
+  infinity: true
+  knockback: true
+  looting: true
+  loyalty: true
+  luck_of_the_sea: true
+  lure: true
+  mending: true
+  multishot: true
+  piercing: true
+  power: true
+  projectile_protection: true
+  protection: true
+  punch: true
+  quick_charge: true
+  respiration: true
+  riptide: true
+  sharpness: true
+  silk_touch: true
+  smite: true
+  soul_speed: true
+  sweeping: true
+  swift_sneak: true
+  thorns: true
+  unbreaking: true
+  vanishing_curse: true
+
+messages:
+  enchant-disabled: "&cThe {enchant} enchantment is disabled! Be careful!"
+  enchant-enabled: "&aThe {enchant} enchantment is now enabled!"

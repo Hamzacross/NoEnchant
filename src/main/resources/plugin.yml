@@ -1,0 +1,10 @@
+name: NoEnchant
+version: 1.0.0
+main: me.noenchant.NoEnchant
+api-version: 1.17
+commands:
+  noenchant:
+    description: Toggle or check enchantments.
+    usage: /noenchant <enchant> [on|off]
+    permission: noenchant.toggle
+    permission-message: You must be an OP to use this command.
